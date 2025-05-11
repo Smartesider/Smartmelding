@@ -1,0 +1,4 @@
+Plugin installert
+Dato: 2025-05-08 13:20:52
+WordPress/PHP: Versjoner logges ved aktivering (krever utvidelse i koden)
+Status: OK

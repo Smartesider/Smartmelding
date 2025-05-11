@@ -1,0 +1,61 @@
+SMARTMELDING – VERSJONSLOGG
+
+= 1.0 =
+- Første fullversjon lansert
+- MET-integrasjon, AI-oppsummering og GPT-kallenavn
+- Shortcode-støtte, REST API og PDF-eksport
+- Admin-GUI med spesialdager
+- SVG-ikoner og feilhåndtering med fallback
+
+[1.0.1] Forbedringer 2025-05-09:
+- Lagt til SMARTMELDING_PLUGIN_DIR konstant
+- Lagt til støtte for oversettelser via load_plugin_textdomain
+
+[1.0.2] Finpuss 2025-05-09:
+- Lagt til init-hook for fremtidige shortcodes og innholdstyper
+- Lagt til admin-meny med enkel sidevisning
+
+[1.0.3] Rettelser 2025-05-09:
+- Lagt til manglende <?php-tag
+- Fjernet ubalansert klammeparentes
+- Full sikkerhetssjekk og klargjort for WordPress
+
+[1.0.4] Funksjonsutvidelse 2025-05-09:
+- Lagt til cron-event planlegging og kjørefunksjon i cron-job.php
+
+[1.0.5] Sikkerhetsforsterkninger 2025-05-09:
+- Fjernet ubalansert klamme i smartmelding.php
+- Pakket wp_die() og die() i brukerrettighetssjekk
+- Lagt til manglende <?php i cron-job.php
+
+[1.0.6] HTML-rensing 2025-05-09:
+- Pakket echo med HTML i HEREDOC for å unngå tolkningsfeil
+
+[1.0.7] Siste feilretting 2025-05-09:
+- Fjernet rå HTML fra PHP-kode som forårsaket aktiveringsfeil
+- Bekreftet eksklusiv HEREDOC-bruk for all HTML-utskrift
+
+[1.0.8] HTML-sikring 2025-05-09:
+- Fjernet rå HTML fra admin-menu.php
+- Lagt til HEREDOC HTML-innpakning for visning
+
+[2.0.0] Full reaktivering og struktur 2025-05-09:
+- Gjenopprettet manglende smartmelding.php med aktivator og inklusjoner
+
+[2.0.1] Gjenopprettet fra opprinnelig kode 2025-05-09:
+- Kombinert opprinnelig struktur med full metadata og hooks
+
+[2.0.2] Fatal error fix 2025-05-09:
+- Riktig håndtering av isset(get_option(...))
+
+[2.0.3] Feilretting 2025-05-09:
+- Fjernet overflødig <?php fra includes/cron-job.php som forårsaket syntax error
+
+[2.0.4] Syntaksfix i rest-api.php 2025-05-09:
+- Fjernet ekstra semikolon i REST array
+
+[2.0.5] Syntaksretting 2025-05-09:
+- Lagt til manglende parenteser på funksjon i rest-api.php
+
+[2.0.6] Full omskriving av rest-api.php 2025-05-09:
+- Riktig struktur for register_rest_route og callback-funksjon

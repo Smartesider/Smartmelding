@@ -1,0 +1,16 @@
+SMARTMELDING – Brukermanual
+
+1. INSTILLINGER:
+- Gå til Innstillinger > SmartMelding
+- Legg inn OpenAI API-nøkkel
+- Velg spesialdager, stil og sted
+
+2. SHORTCODES:
+- Bruk [smartmelding sted="Oslo"] for å vise værmelding
+- Kan brukes i innlegg, sider og widgets
+
+3. API:
+- App-data tilgjengelig på: /wp-json/smartmelding/v1/vaer/sted
+
+4. CRON:
+- Værmelding oppdateres automatisk hver dag klokken 07:00

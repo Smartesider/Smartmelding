@@ -1,0 +1,28 @@
+
+.smartmelding-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fefcf8;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    font-family: 'Arial', sans-serif;
+}
+.smartmelding-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.smartmelding-icon {
+    width: 64px;
+    height: 64px;
+}
+.smartmelding-summary {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+.smartmelding-karakter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e67300;
+}

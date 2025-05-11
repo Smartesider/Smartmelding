@@ -1,0 +1,3 @@
+[SmartMelding Error Log]
+Dette dokumentet logger tekniske feil i pluginen.
+Feilmeldinger legges til automatisk av systemet dersom feil oppstår under henting eller behandling av data.
